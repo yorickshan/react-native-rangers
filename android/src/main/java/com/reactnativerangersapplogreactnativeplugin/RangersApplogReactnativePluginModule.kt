@@ -70,7 +70,7 @@ class RangersApplogReactnativePluginModule(reactContext: ReactApplicationContext
   }
 
   @ReactMethod
-  fun setUserUniqueId(id: String, promise: Promise) {
+  fun setUserUniqueId(id: String?, promise: Promise) {
     AppLog.setUserUniqueID(id)
   }
 
